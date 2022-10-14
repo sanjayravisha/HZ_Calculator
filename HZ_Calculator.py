@@ -28,6 +28,6 @@ L_star = (0.1)**((M_bol - 4.72)/2.5)
 r_i = math.sqrt(L_star/1.1)
 r_o = math.sqrt(L_star/0.53)
 
-
+# writes inner and outer radii in output file
 output_file.write(str(r_i) + " " + str(r_o))
 
